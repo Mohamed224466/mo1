@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* أفقي */
+    align-items: center;     /* عمودي */
+}
+.mm{
+  text-align: center;
+     ;
+}
+ 
+#email{
+    border-radius: 10px;
+    background-color: #201e1e;
+    box-shadow: white 10px 10px 70px;
+    
+}
+  #password{
+    border-radius: 10px;
+    background-color: #201e1e;
+    box-shadow: white 10px 10p 70px;
+}
+a{
+    color: rgb(226, 174, 107);
+    text-decoration: none;
+}
+#p{
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    ;
+    
+}
+#p:hover {
+    box-shadow: 0 0 30px 5px white;
+    transition: box-shadow 0.70s;
+}
